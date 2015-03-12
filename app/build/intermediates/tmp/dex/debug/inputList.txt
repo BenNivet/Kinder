@@ -1,0 +1,5 @@
+/Users/MacB_can/AndroidStudioProjects/FirstAppliSwipe/app/build/intermediates/classes/debug
+/Users/MacB_can/AndroidStudioProjects/FirstAppliSwipe/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-bd40597b467a4a927436f7644d9dc634306bb354.jar
+/Users/MacB_can/AndroidStudioProjects/FirstAppliSwipe/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-9338ea1aceb76b3895076582e7965712e6e3fb54.jar
+/Users/MacB_can/AndroidStudioProjects/FirstAppliSwipe/app/build/intermediates/pre-dexed/debug/classes-fba656c8cc17fa6f4a9c9cd6a02ccef085904f1e.jar
+/Users/MacB_can/AndroidStudioProjects/FirstAppliSwipe/app/build/intermediates/pre-dexed/debug/classes-250e76634cca95ff73ce74789ec3d8d6e790aa81.jar
