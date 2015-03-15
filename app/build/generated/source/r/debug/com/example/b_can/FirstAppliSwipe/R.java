@@ -1448,27 +1448,29 @@ containing a value of this type.
         public static final int abc_simple_dropdown_hint=0x7f030016;
         public static final int action_bar_custom=0x7f030017;
         public static final int activity_after_sending_photo=0x7f030018;
-        public static final int activity_connect=0x7f030019;
-        public static final int activity_discuss=0x7f03001a;
-        public static final int display_photo_mess=0x7f03001b;
-        public static final int fragment_blank=0x7f03001c;
-        public static final int fragment_main=0x7f03001d;
-        public static final int fragment_section_conv=0x7f03001e;
-        public static final int fragment_section_mess=0x7f03001f;
-        public static final int fragment_section_photo=0x7f030020;
-        public static final int fragment_settings=0x7f030021;
-        public static final int image_taken=0x7f030022;
-        public static final int list_group=0x7f030023;
-        public static final int list_item=0x7f030024;
-        public static final int list_item_convers=0x7f030025;
-        public static final int list_item_message=0x7f030026;
-        public static final int listitem_discuss=0x7f030027;
-        public static final int support_simple_spinner_dropdown_item=0x7f030028;
-        public static final int test=0x7f030029;
+        public static final int activity_blank_activity=0x7f030019;
+        public static final int activity_connect=0x7f03001a;
+        public static final int activity_discuss=0x7f03001b;
+        public static final int display_photo_mess=0x7f03001c;
+        public static final int fragment_blank=0x7f03001d;
+        public static final int fragment_main=0x7f03001e;
+        public static final int fragment_section_conv=0x7f03001f;
+        public static final int fragment_section_mess=0x7f030020;
+        public static final int fragment_section_photo=0x7f030021;
+        public static final int fragment_settings=0x7f030022;
+        public static final int image_taken=0x7f030023;
+        public static final int list_group=0x7f030024;
+        public static final int list_item=0x7f030025;
+        public static final int list_item_convers=0x7f030026;
+        public static final int list_item_message=0x7f030027;
+        public static final int listitem_discuss=0x7f030028;
+        public static final int support_simple_spinner_dropdown_item=0x7f030029;
+        public static final int test=0x7f03002a;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
-        public static final int menu_test=0x7f0c0001;
+        public static final int menu_blank_activity=0x7f0c0001;
+        public static final int menu_test=0x7f0c0002;
     }
     public static final class string {
         public static final int Capture=0x7f0a0000;
@@ -1505,12 +1507,13 @@ containing a value of this type.
         public static final int tab_numbers=0x7f0a001f;
         public static final int tab_words=0x7f0a0020;
         public static final int title_activity_after_sending_photo=0x7f0a0021;
-        public static final int title_activity_conversation_list=0x7f0a0022;
-        public static final int title_activity_display_image_view=0x7f0a0023;
-        public static final int title_activity_display_img=0x7f0a0024;
-        public static final int title_activity_settings=0x7f0a0025;
-        public static final int title_activity_test=0x7f0a0026;
-        public static final int username=0x7f0a0027;
+        public static final int title_activity_blank_activity=0x7f0a0022;
+        public static final int title_activity_conversation_list=0x7f0a0023;
+        public static final int title_activity_display_image_view=0x7f0a0024;
+        public static final int title_activity_display_img=0x7f0a0025;
+        public static final int title_activity_settings=0x7f0a0026;
+        public static final int title_activity_test=0x7f0a0027;
+        public static final int username=0x7f0a0028;
     }
     public static final class style {
         public static final int Base_TextAppearance_AppCompat=0x7f0b0000;

@@ -6,17 +6,32 @@
 
     <uses-sdk android:minSdkVersion="11" />
 
-    <uses-permission android:name="android.permission.CAMERA" android:required="true"/>
-    <uses-permission android:name="android.permision.WRITE_EXTERNAL_STORAGE" android:required="true"/>
-    <uses-permission android:name="android.permision.READ_EXTERNAL_STORAGE" android:required="true"/>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        android:required="true" />
+    <uses-permission
+        android:name="android.permision.WRITE_EXTERNAL_STORAGE"
+        android:required="true" />
+    <uses-permission
+        android:name="android.permision.READ_EXTERNAL_STORAGE"
+        android:required="true" />
     <uses-permission android:name="android.permision.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
-    <uses-feature android:name="android.hardware.camera" android:required="true"/>
-    <uses-feature android:name="android.hardware.camera.front" android:required="true"/>
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="true" />
+
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
 
     <application
         android:icon="@drawable/ic_launcher"
@@ -28,6 +43,7 @@
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -52,6 +68,10 @@
         <activity
             android:name=".Activities.Settings"
             android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name=".Old.blank_activity"
+            android:label="@string/title_activity_blank_activity" >
         </activity>
     </application>
 
