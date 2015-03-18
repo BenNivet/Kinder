@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f4"
+    android:orientation="vertical" >
+
+    <ExpandableListView
+        android:id="@+id/lvExp"
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:layout_weight="0.14">
+    </ExpandableListView>
+
+</LinearLayout>
+    <!--<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@android:id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:padding="32dp" >
+    </TextView>-->
+
+
+
+
+
+
+<!-- From: file:/Users/MacB_can/AndroidStudioProjects/FirstAppliSwipe/app/src/main/res/layout/fragment_section_conv.xml -->

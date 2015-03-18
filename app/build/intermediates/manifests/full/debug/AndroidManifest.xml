@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.b_can.FirstAppliSwipe"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        android:required="true" />
+    <uses-permission
+        android:name="android.permision.WRITE_EXTERNAL_STORAGE"
+        android:required="true" />
+    <uses-permission
+        android:name="android.permision.READ_EXTERNAL_STORAGE"
+        android:required="true" />
+    <uses-permission android:name="android.permision.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="true" />
+
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar" >
+        <activity
+            android:name="com.example.b_can.FirstAppliSwipe.Activities.ConnectPage"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.b_can.FirstAppliSwipe.Activities.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.b_can.FirstAppliSwipe.Activities.Conversation"
+            android:label="@string/conversation_page" />
+        <activity
+            android:name="com.example.b_can.FirstAppliSwipe.Activities.PhotoTaken"
+            android:label="@string/phototaken_page" />
+        <activity
+            android:name="com.example.b_can.FirstAppliSwipe.Activities.DisplayImgActivity"
+            android:label="@string/title_activity_display_img" >
+        </activity>
+        <activity
+            android:name="com.example.b_can.FirstAppliSwipe.Activities.AfterSendingPhoto"
+            android:label="@string/title_activity_after_sending_photo" >
+        </activity>
+        <activity
+            android:name="com.example.b_can.FirstAppliSwipe.Activities.Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="com.example.b_can.FirstAppliSwipe.Old.blank_activity"
+            android:label="@string/title_activity_blank_activity" >
+        </activity>
+    </application>
+
+</manifest>

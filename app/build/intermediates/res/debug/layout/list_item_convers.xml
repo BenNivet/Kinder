@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/itemListMessage"
+android:background="#f4f4f4"
+android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/layoutImg"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imdMessItem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_launcher"
+            android:fitsSystemWindows="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/messPseudo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pseudo" />
+        <TextView
+            android:id="@+id/messCivilite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="civilite" />
+        <TextView
+            android:id="@+id/messDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/clickToView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="Graphical test" />
+
+    </LinearLayout>
+</LinearLayout>
+<!-- From: file:/Users/MacB_can/AndroidStudioProjects/FirstAppliSwipe/app/src/main/res/layout/list_item_convers.xml -->
